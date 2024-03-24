@@ -1,6 +1,5 @@
 import { NextApiResponse } from "next";
 import { toast } from "react-toastify";
-import { testUtil } from "@repo/utils";
 
 import { api_url } from "./constants";
 
