@@ -1,0 +1,9 @@
+.MainPane {
+  min-height: 80vh;
+  flex-grow: 1;
+  padding: 1rem;
+
+  @media screen and (max-width: 360px) {
+    padding: 5px;
+  }
+}

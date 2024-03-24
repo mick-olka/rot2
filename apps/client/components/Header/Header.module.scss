@@ -1,0 +1,27 @@
+.Header {
+  padding: 10px 10px 20px 50px;
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  & a {
+    text-decoration: none;
+    color: #000;
+  }
+}
+
+.LogoLinksNavigateWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.HeaderContentCenter {
+  flex-grow: 1;
+  text-align: center;
+}

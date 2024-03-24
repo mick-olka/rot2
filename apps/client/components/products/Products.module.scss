@@ -1,0 +1,14 @@
+@import '@/styles/general';
+@import '@/styles/variables.scss';
+
+.card_link {
+  @include fill_parent;
+}
+
+.text {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: inherit;
+  text-align: center;
+  margin: 0 10px 10px;
+}

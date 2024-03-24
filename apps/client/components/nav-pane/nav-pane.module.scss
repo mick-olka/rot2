@@ -1,0 +1,15 @@
+.DrawerStyled {
+  .MuiPaper-root {
+    background-color: #eee;
+    color: #fff;
+  }
+  .MuiListItemIcon-root {
+    color: #fff;
+  }
+}
+
+.search_pane {
+  button {
+    transform: none !important;
+  }
+}

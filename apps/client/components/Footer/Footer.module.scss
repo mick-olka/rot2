@@ -1,0 +1,74 @@
+@import '@/styles/variables.scss';
+
+.Footer {
+  max-width: 1520px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 14px 7px;
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+.FooterIconWrapper {
+  margin: 14px;
+
+  & img {
+    width: 196px;
+    height: 33px;
+  }
+}
+
+.FooterLinksSection {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.FooterLinksBlock {
+}
+
+.BlockHeading {
+  color: $textBlack;
+  font-size: 1.125em;
+  font-weight: 500;
+  margin-bottom: 26px;
+}
+
+.LinksList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-weight: 400;
+  font-size: 1em;
+
+  & li {
+    line-height: 30px;
+    color: $textBlack;
+
+    & a {
+      text-decoration: none;
+      color: $textBlack;
+    }
+  }
+}
+
+.FooterCopyrightBlock {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 10px 0 0 0;
+  border-top: 1px solid #bbb;
+  color: $textBlack;
+}
+
+.IconsBlock {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 24px;
+  margin: 2rem;
+}

@@ -1,0 +1,55 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-repeat: no-repeat;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 0.6px;
+  height: 100%;
+  background-color: #eee;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+html {
+  height: 100vh;
+  font-size: 16px;
+}
+
+#__next {
+  height: 100%;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a.__activeLink {
+  color: #000;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19px;
+
+  border-bottom: 3px solid transparent;
+}
+
+a.active {
+  border-bottom: 3px solid #000;
+}

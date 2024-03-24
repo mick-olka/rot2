@@ -1,0 +1,9 @@
+@import '@/styles/general';
+
+.pane {
+  display: flex;
+}
+
+.round_btn {
+  @include round_button;
+}

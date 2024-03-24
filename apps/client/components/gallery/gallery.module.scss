@@ -1,0 +1,11 @@
+.carousel {
+  background-color: #fff !important;
+  max-height: 25rem;
+  padding: 1rem;
+  padding-bottom: 0;
+  // box-shadow: 0 0 5px 10px #fff;
+
+  li img {
+    object-fit: contain;
+  }
+}
