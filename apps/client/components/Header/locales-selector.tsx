@@ -40,10 +40,6 @@ export const LocalesSelector = () => {
     getLocaleSafe(locale || "ua")
   );
 
-  const handleClick = () => {
-    // console.info(`You clicked ${options[selectedIndex]}`)
-  };
-
   const handleMenuItemClick = (
     event: React.MouseEvent<HTMLLIElement, MouseEvent>,
     option: E_Locales

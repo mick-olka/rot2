@@ -40,6 +40,7 @@ export async function getStaticProps({
   }
   const order = t ? t.text[locale] : "";
   const dollar = d ? d.text[locale] : 1;
+  const phones = p ? p.text[locale] : "";
   if (!product) return { notFound: true };
   else
     return {
@@ -49,7 +50,7 @@ export async function getStaticProps({
           [path + params.id]: product,
         },
         locale,
-        text: { order, dollar, collection },
+        text: { order, dollar, collection, phones },
       },
       revalidate: 60,
     };
