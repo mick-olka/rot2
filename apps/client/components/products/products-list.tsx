@@ -35,6 +35,8 @@ export const ProductsList = ({
                 src={p.thumbnail}
                 sx={{ width: "100%", height: "100%" }}
                 sizes={"140px 100px"}
+                alt={p.name[locale]}
+                title={p.name[locale]}
               />
             </Box>
             <Box

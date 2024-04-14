@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
 import { NextSeo } from "next-seo";
 import { ReactNode } from "react";
-
-import s from "./mainLayout.module.scss";
+import s from "./main-layout.module.scss";
 
 interface LayoutProps {
   children: ReactNode;

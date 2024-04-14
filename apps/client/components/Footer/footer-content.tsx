@@ -8,7 +8,7 @@ export const FooterContent = () => {
   return (
     <div className={s.FooterCopyrightBlock}>
       <div className={s.FooterIconWrapper}>
-        <Image alt={"logo"} src={Logo} priority />
+        <Image alt={"Rotang.ua logo"} title={"Rotang.ua"} src={Logo} priority />
       </div>
       <div>Copyright © 2023 [Rotang.ua] All rights reserve.</div>
       {/* <div className={s.IconsBlock}>
