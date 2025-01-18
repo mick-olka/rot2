@@ -8,6 +8,12 @@
       "outputs": [".next/**", "!.next/cache/**"],
       "dotEnv": [".env"]
     },
+    "admin#build": {
+      "dependsOn": ["api#build"]
+    },
+    "client#build": {
+      "dependsOn": ["api#build"]
+    },
     "lint": {
       "dependsOn": ["^lint"]
     },

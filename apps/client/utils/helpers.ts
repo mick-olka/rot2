@@ -14,7 +14,7 @@ export const toasterPending = <T>(
   return toast.promise(method, {
     pending: pending || "Loading...",
     error: {
-      render({ data }) {
+      render() {
         return error || "Error";
       },
     },

@@ -1,10 +1,7 @@
 export * from "./products";
 export * from "./card";
-export { Header } from "./header";
-export * from "./footer";
-export * from "./nav-pane";
-export * from "./dialogs";
-export * from "./search";
+export * from "./layout";
+export * from "./dialog-panes";
 export * from "./collections";
 export * from "./cards-grid";
 export * from "./carousel";
